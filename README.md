@@ -1,0 +1,3 @@
+- Esta es una ApiRest hecha con Springboot, destinada a realizar labores fundamentales a nivel administrativo, ventas y control de inventario para una tienda, está dockerizada,
+- e incluye persistencia para los datos usando un contenedor con mysql
+- No olvides leer el archivo .env.example que está en la raíz del proyecto, es escencial leerlo para que la Api funcione sin problema alguno 
