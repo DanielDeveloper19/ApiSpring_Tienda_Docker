@@ -19,11 +19,22 @@ Tech Stack: Java, Spring Boot, MySQL, Docker, REST API, JPA/Hibernate
 
 -NOTE: Do not forget to read the .env.example file that is in the root of the project, it is essential to read it for the Api to work without any problem. 
 
-- Esta es una ApiRest hecha con Springboot, destinada a realizar labores fundamentales a nivel administrativo, ventas y control de inventario para una tienda, está dockerizada
- e incluye persistencia para los datos usando un contenedor con mysql
-- Hace CRUD de los clientes, de los productos y de las ventas
-  . Permitiendo registrar en una base de datos la información de los clientes que realizan alguna compra, y asociarle a estos los productos que compraron, el valor de la compra, la fecha el día etc.
-  . También lleva un control absoluto de todos los productos que entran y salen de la tienda, llevando una cuenta exacta de cada producto, e incluso impidiendo la venta de alguno de estos en caso de que ya no hayan más unidades disponibles.
-  . Y cabe recalcar que puedes hacer muchas más operaciones CRUD con las diferentes clases de este proyecto.
-   
--NOTA: No olvides leer el archivo .env.example que está en la raíz del proyecto, es escencial leerlo para que la Api funcione sin problema alguno 
+🏪 API de Gestión de Tiendas
+
+Un completo sistema backend RESTful desarrollado con Spring Boot que gestiona la administración, las ventas y el inventario de tiendas minoristas. Totalmente contenerizado con Docker, ofrece almacenamiento persistente de datos mediante un contenedor MySQL para mayor fiabilidad y escalabilidad.
+
+La API permite realizar operaciones CRUD completas para clientes, productos y ventas, lo que permite a las tiendas:
+
+Registrar y gestionar perfiles de clientes
+
+Registrar y asociar compras con clientes, productos, precios y fechas
+
+Mantener un control preciso y en tiempo real del stock de productos
+
+Impedir automáticamente las ventas cuando se agota el stock, garantizando la coherencia de los datos y la integridad de la lógica de negocio
+
+Diseñada con una arquitectura modular, admite operaciones CRUD adicionales en múltiples entidades, lo que facilita su extensión e integración con otros servicios como facturación, análisis o sistemas de inventario externos.
+
+Tecnologías: Java, Spring Boot, MySQL, Docker, API REST, JPA/Hibernate
+
+-NOTA: No olvide leer el archivo .env.example que se encuentra en la raíz del proyecto; es fundamental leerlo para que la API funcione correctamente.
