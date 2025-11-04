@@ -1,9 +1,21 @@
--This is an ApiRest made with Springboot, intended to perform fundamental tasks at the administrative level, sales and inventory control for a store, it is dockerized
- and includes persistence for the data using a mysql container.
-- Makes CRUD of customers, products and sales.
-  . Allowing to register in a database the information of the clients that make a purchase, and to associate to these the products that they bought, the value of the purchase, the date, the day, etc.
-  . It also has an absolute control of all the products that enter and leave the store, keeping an exact account of each product, and even preventing the sale of any of these in case there are no more units available.
-  . And it should be noted that you can do many more CRUD operations with the different classes of this project.
+🏪 Store Management API
+
+A complete RESTful backend system built with Spring Boot that handles administration, sales, and inventory management for retail stores.
+Fully containerized with Docker, featuring persistent data storage through a MySQL container for reliability and scalability.
+
+The API enables full CRUD operations for customers, products, and sales — allowing stores to:
+
+Register and manage customer profiles
+
+Record and associate purchases with customers, products, prices, and dates
+
+Maintain precise real-time control of product stock
+
+Automatically prevent sales when stock is depleted, ensuring data consistency and business logic integrity
+
+Designed with a modular architecture, it supports additional CRUD operations across multiple entities, making it easy to extend and integrate with other services such as billing, analytics, or external inventory systems.
+
+Tech Stack: Java, Spring Boot, MySQL, Docker, REST API, JPA/Hibernate
 
 -NOTE: Do not forget to read the .env.example file that is in the root of the project, it is essential to read it for the Api to work without any problem. 
 
